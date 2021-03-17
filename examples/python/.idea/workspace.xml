@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a7def433-4d37-471c-ae64-cebbb01078b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../user-interface/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../user-interface/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,51 +84,40 @@
         <counts>
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="175" />
-          <entry key="py" value="107" />
+          <entry key="Python Console" value="1491" />
+          <entry key="py" value="3465" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="282" />
+          <entry key="Python" value="4956" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/uist-demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wirecutter_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="1267">
+              <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -135,9 +125,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_gui.py">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/robo-arm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="179" selection-start-line="179" selection-end-line="179" selection-end-column="86" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1615959505036" expanded="true" signature="1081:1258" ph="..." />
+                <marker date="1615959505036" expanded="true" signature="1252:1253" ph="..." />
+                <marker date="1615959505036" expanded="true" signature="1287:1465" ph="..." />
+                <marker date="1615959505036" expanded="true" signature="1496:1864" ph="..." />
+                <marker date="1615959505036" expanded="true" signature="3650:4545" ph="..." />
+                <marker date="1615959505036" expanded="true" signature="4670:4759" ph="..." />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -153,6 +156,7 @@
     <findStrings>
       <find>profile</find>
       <find>pyxl320</find>
+      <find>ena</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,10 +172,11 @@
         <option value="$PROJECT_DIR$/uist-demo.py" />
         <option value="$PROJECT_DIR$/wirecutter_demo.py" />
         <option value="$PROJECT_DIR$/test_gui.py" />
+        <option value="$PROJECT_DIR$/robo-arm.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="109" />
     <option name="width" value="1432" />
     <option name="height" value="1050" />
@@ -202,7 +207,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -223,7 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_gui">
+  <component name="RunManager" selected="Python.robo-arm">
     <configuration name="demo_manual" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,7 +250,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="romeo_demos" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="robo-arm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,7 +262,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/romeo_demos.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robo-arm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -330,19 +335,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.romeo_demos" />
       <item itemvalue="Python.demo_manual" />
       <item itemvalue="Python.uist-demo" />
       <item itemvalue="Python.wirecutter_demo" />
       <item itemvalue="Python.test_gui" />
+      <item itemvalue="Python.robo-arm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.robo-arm" />
         <item itemvalue="Python.test_gui" />
         <item itemvalue="Python.wirecutter_demo" />
         <item itemvalue="Python.uist-demo" />
         <item itemvalue="Python.demo_manual" />
-        <item itemvalue="Python.romeo_demos" />
       </list>
     </recent_temporary>
   </component>
@@ -360,8 +365,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="109" y="0" width="1432" height="1050" extended-state="1" />
-    <editor active="true" />
+    <frame x="109" y="0" width="1432" height="1050" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -369,14 +373,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32985386" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39979124" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39979124" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32985386" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32985386" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32985386" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -408,17 +412,20 @@
           <line>81</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/robo-arm.py</url>
+          <line>172</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/robo-arm.py</url>
+          <line>179</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.conda/envs/uist-2019-demo/lib/python2.7/site-packages/pyserial-3.4-py2.7.egg/serial/serialposix.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="267" selection-start-line="267" selection-end-line="267" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-398">
@@ -431,25 +438,48 @@
     <entry file="file://$PROJECT_DIR$/romeo_demos.py" />
     <entry file="file://$PROJECT_DIR$/transiot_test.py" />
     <entry file="file://$PROJECT_DIR$/demo.py" />
-    <entry file="file://$PROJECT_DIR$/test_gui.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wirecutter_demo.py">
+    <entry file="file://$PROJECT_DIR$/uist-demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="-1733">
+          <caret line="71" column="30" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="30" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uist-demo.py">
+    <entry file="file://$PROJECT_DIR$/test_gui.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wirecutter_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="28" lean-forward="true" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        <state relative-caret-position="1267">
+          <caret line="77" column="24" selection-start-line="77" selection-start-column="24" selection-end-line="77" selection-end-column="24" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.conda/envs/uist-2019-demo/lib/python2.7/site-packages/pyserial-3.4-py2.7.egg/serial/serialposix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="189" selection-start-line="189" selection-end-line="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robo-arm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="179" selection-start-line="179" selection-end-line="179" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1615959505036" expanded="true" signature="1081:1258" ph="..." />
+            <marker date="1615959505036" expanded="true" signature="1252:1253" ph="..." />
+            <marker date="1615959505036" expanded="true" signature="1287:1465" ph="..." />
+            <marker date="1615959505036" expanded="true" signature="1496:1864" ph="..." />
+            <marker date="1615959505036" expanded="true" signature="3650:4545" ph="..." />
+            <marker date="1615959505036" expanded="true" signature="4670:4759" ph="..." />
           </folding>
         </state>
       </provider>
