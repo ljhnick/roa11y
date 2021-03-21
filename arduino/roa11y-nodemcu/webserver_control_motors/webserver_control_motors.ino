@@ -3,6 +3,7 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 #include <ArduinoJson.h>
+#include <HttpClient.h>
 
 const char* ssid     = "MieMie";
 const char* password = "lijiahao";
@@ -34,7 +35,9 @@ void setup() {
   Serial.println(WiFi.localIP());
 
   server.on("/",[](){server.send(200,"text/plain","Hellow World!");});
-  server.on("/test", test_dynamixel);
+  server.on("/actuate", xl_wheel);
+  server.on("/detach", xl_detach);
+  server.on("/detect", detect_rfid);
   server.begin();
 
  
@@ -44,13 +47,32 @@ void loop() {
   server.handleClient();
 }
 
-void test_dynamixel() {
+void xl_wheel() {
   String data = server.arg("plain");
-  StaticJsonBuffer<200> jBuffer;
-  JsonObject& jObject = jBuffer.parseObject(data);
+  StaticJsonDocument<200> jObject;
+  deserializeJson(jObject, data);
   String id = jObject["id"];
   String velocity = jObject["speed"];
   
   XLservo.setJointSpeed(id.toInt(), velocity.toInt());
   server.send(204, "");
+}
+
+void xl_detach() {
+//  XLservo.setJointSpeed(6, 800);
+  XLservo.moveJoint(6, 800);
+  delay(2000);
+  XLservo.moveJoint(6, 200);
+  server.send(204, "");
+}
+
+void detect_rfid() {
+
+  StaticJsonDocument<200> data;
+  data["object"] = "can opener";
+
+  String data_string;
+  serializeJson(data, data_string);
+  
+  server.sendContent(data_string);
 }
