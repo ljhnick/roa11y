@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7def433-4d37-471c-ae64-cebbb01078b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../arduino/roa11y-nodemcu/webserver_control_motors/webserver_control_motors.ino" beforeDir="false" afterPath="$PROJECT_DIR$/../../arduino/roa11y-nodemcu/webserver_control_motors/webserver_control_motors.ino" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-interface/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../user-interface/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-interface/src/roa11y.gripper.control.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../user-interface/src/roa11y.gripper.control.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-interface/src/roa11y.init.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../user-interface/src/roa11y.init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-interface/src/roa11y.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../user-interface/src/roa11y.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../user-interface/src/roa11y.layout.js" beforeDir="false" />
-    </list>
+    <list default="true" id="a7def433-4d37-471c-ae64-cebbb01078b7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +99,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="3049" />
+          <entry key="Python Console" value="3070" />
           <entry key="py" value="8521" />
           <entry key="txt" value="29" />
         </counts>
@@ -115,7 +107,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="29" />
-          <entry key="Python" value="11570" />
+          <entry key="Python" value="11591" />
         </counts>
       </usages-collector>
     </session>
@@ -134,7 +126,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interaction_ui.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -158,11 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robo-arm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="363" selection-start-line="363" selection-end-line="363" />
+            <state relative-caret-position="144">
+              <caret line="362" selection-start-line="362" selection-end-line="362" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
                 <marker date="1616539302403" expanded="true" signature="1117:1294" ph="..." />
@@ -289,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.interaction_ui">
+  <component name="RunManager" selected="Python.robo-arm">
     <configuration name="interaction_ui" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -404,8 +396,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.interaction_ui" />
         <item itemvalue="Python.robo-arm" />
+        <item itemvalue="Python.interaction_ui" />
         <item itemvalue="Python.robo-arm-1" />
         <item itemvalue="Python.test_gui" />
         <item itemvalue="Python.wirecutter_demo" />
@@ -427,7 +419,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="109" y="0" width="1432" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946846" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -556,26 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robo-arm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="363" selection-start-line="363" selection-end-line="363" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-            <marker date="1616539302403" expanded="true" signature="1117:1294" ph="..." />
-            <marker date="1616539302403" expanded="true" signature="1288:1289" ph="..." />
-            <marker date="1616539302403" expanded="true" signature="1323:1501" ph="..." />
-            <marker date="1616539302403" expanded="true" signature="1532:2056" ph="..." />
-            <marker date="1616539302403" expanded="true" signature="2798:2903" ph="..." />
-            <marker date="1616539302403" expanded="true" signature="4004:4700" ph="..." />
-            <marker date="1616539302403" expanded="true" signature="7053:7063" ph="..." />
-            <marker date="1616539302403" expanded="true" signature="9545:9638" ph="..." />
-            <marker date="1616539302403" expanded="true" signature="9785:9874" ph="..." />
-            <marker date="1616539302403" expanded="true" signature="10973:11163" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -592,6 +563,26 @@
             <marker date="1616561441080" expanded="true" signature="1887:1939" ph="..." />
             <marker date="1616561441080" expanded="true" signature="3545:3851" ph="..." />
             <marker date="1616561441080" expanded="true" signature="4392:5472" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robo-arm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="362" selection-start-line="362" selection-end-line="362" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1616539302403" expanded="true" signature="1117:1294" ph="..." />
+            <marker date="1616539302403" expanded="true" signature="1288:1289" ph="..." />
+            <marker date="1616539302403" expanded="true" signature="1323:1501" ph="..." />
+            <marker date="1616539302403" expanded="true" signature="1532:2056" ph="..." />
+            <marker date="1616539302403" expanded="true" signature="2798:2903" ph="..." />
+            <marker date="1616539302403" expanded="true" signature="4004:4700" ph="..." />
+            <marker date="1616539302403" expanded="true" signature="7053:7063" ph="..." />
+            <marker date="1616539302403" expanded="true" signature="9545:9638" ph="..." />
+            <marker date="1616539302403" expanded="true" signature="9785:9874" ph="..." />
+            <marker date="1616539302403" expanded="true" signature="10973:11163" ph="..." />
           </folding>
         </state>
       </provider>
