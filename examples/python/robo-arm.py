@@ -7,6 +7,8 @@ import math
 
 import httplib2
 
+from interaction_ui import Gripper
+
 if os.name == 'nt':
     import msvcrt
     def getch():
@@ -308,33 +310,33 @@ class RoboArm:
         # self.wakeup()
         time.sleep(2)
 
-class Gripper:
-
-    def detach(self):
-        detach_addr = "/detach"
-        url = self.url + detach_addr
-        response, content = self.http.request(url, "GET")
-        return response
-
-    def actuate(self, flag=None):
-        actuate_addr = "/actuate"
-        url = self.url + actuate_addr
-
-        if flag == 1:
-            data = {"id":"5", "speed":"1023"}
-        elif flag == 2:
-            data = {"id": "5", "speed": "2047"}
-        else:
-            data = {"id":"5", "speed":"0"}
-
-        response, content = self.http.request(url, "POST", headers=self.headers, body=json.dumps(data))
-
-        return response
-
-    def __init__(self):
-        self.http = httplib2.Http()
-        self.url = "http://192.168.86.22"
-        self.headers = {"Content-Type": "application/json; charset=UTF-8"}
+# class Gripper:
+#
+#     def detach(self):
+#         detach_addr = "/detach"
+#         url = self.url + detach_addr
+#         response, content = self.http.request(url, "GET")
+#         return response
+#
+#     def actuate(self, flag=None):
+#         actuate_addr = "/actuate"
+#         url = self.url + actuate_addr
+#
+#         if flag == 1:
+#             data = {"id":"5", "speed":"1023"}
+#         elif flag == 2:
+#             data = {"id": "5", "speed": "2047"}
+#         else:
+#             data = {"id":"5", "speed":"0"}
+#
+#         response, content = self.http.request(url, "POST", headers=self.headers, body=json.dumps(data))
+#
+#         return response
+#
+#     def __init__(self):
+#         self.http = httplib2.Http()
+#         self.url = "http://192.168.86.22"
+#         self.headers = {"Content-Type": "application/json; charset=UTF-8"}
 
 
 # initialize robotic arm
@@ -357,6 +359,8 @@ robotic_arm = RoboArm()
 #
 # time.sleep(2)
 
+gripper = Gripper()
+gripper.actuate_object()
 print(1)
 
 # http = httplib2.Http()

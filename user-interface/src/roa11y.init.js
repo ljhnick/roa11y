@@ -71,8 +71,8 @@ function drawGround(yOffset) {
      ground.position.y -= yOffset;
      return ground;
 }
-var gGround = drawGround(0);
-scene.add(gGround);
+// var gGround = drawGround(0);
+// scene.add(gGround);
 
 
 // draw grid
@@ -82,8 +82,8 @@ function drawGrid(yOffset) {
      gridHelper.position.y = yOffset;
      return gridHelper;
 }
-var gGrid = drawGrid(0);
-scene.add(gGrid);
+// var gGrid = drawGrid(0);
+// scene.add(gGrid);
 
 //
 // add lights
@@ -103,100 +103,6 @@ var MATERIALNORMAL = new THREE.MeshPhongMaterial({
      opacity: 0.75
 });
 
-var MATERIALCONTRAST = new THREE.MeshPhongMaterial({
-     color: COLORCONTRAST,
-     transparent: true,
-     // wireframe: true,
-     opacity: 0.25
-});
-
-var MATERIALOVERLAY = new THREE.MeshPhongMaterial({
-     color: COLOROVERLAY,
-     transparent: true,
-     opacity: 0.75
-});
-
-var MATERIALHIGHLIGHT = new THREE.MeshPhongMaterial({
-     color: COLORHIGHLIGHT,
-     transparent: true,
-     opacity: 0.75
-});
-
-// var MATERIALPLAIN = new THREE.MeshBasicMaterial({
-//      vertexColors: THREE.VertexColors,
-//      transparent: true,
-//      opacity: 1.0
-// });
-
-var MATERIALINVISIBLE= new THREE.MeshBasicMaterial({
-     vertexColors: 0xffffff,
-     transparent: true,
-     wireframe: true,
-     visible: false
-});
-
-// var MATERIALFOCUS = new THREE.MeshPhongMaterial({
-//      color: COLORSTROKE,
-//      transparent: true,
-//      opacity: 1.0
-// });
-
-var MATERIALGREEN = new THREE.MeshPhongMaterial({
-     // color: 0x65E604,
-     color: 0xDB5B8A,
-     transparent: true,
-     opacity: 0.75
-});
-
-var MATERIALYELLOW = new THREE.MeshPhongMaterial({
-     color: COLORYELLOW,
-     transparent: true,
-     opacity: 0.75,
-     side: THREE.DoubleSide
-});
-
-var MATERIALRED = new THREE.MeshPhongMaterial({
-     color: 0Xff0000,
-     transparent: false,
-})
-
-var MATERIALOBSTACLE = new THREE.MeshPhongMaterial({
-     color: COLORCONTRAST,
-     transparent: false,
-     opacity: 1
-})
-
-var MATERIALVOXEL = new THREE.MeshPhongMaterial({
-     color: 0xfff000,
-     transparent: true,
-     opacity: 0.5,
-     wireframe: false
-})
-
-var MATERIALPOINT = new THREE.MeshPhongMaterial({
-     // color: 0x65E604,
-     color: 0X000000,
-     transparent: false,
-     opacity: 1,
-     // wireframe: true
-})
-
-var MATERIALLINE = new THREE.LineBasicMaterial({
-     color: 0x000000
-});
-
-var MATERIALSOLID = new THREE.MeshPhongMaterial({
-     color: 0x000000,
-     transparent: false
-})
-
-
-// step of the design tool
-var gStep = 0;
-
-var wheelDisabled = false;
-var allDesignsGenerated = false;
-
 
 // for saving stl
 var saveSTL = document.createElement( 'a' );
@@ -207,4 +113,5 @@ document.body.appendChild( saveSTL );
 // task type
 var TASKTYPE;
 
+var wheelDisabled = false;
 
